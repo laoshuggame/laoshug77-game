@@ -93,6 +93,31 @@
       100% { transform: scale(1); }
     }
 
+    /* ส่วนวิดีโอ */
+    .video-section {
+      margin: 50px 0;
+      text-align: center;
+    }
+    .video-section iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(212,175,55,0.4);
+    }
+
+    /* ส่วนรูปภาพด้านล่าง */
+    .image-section {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .image-section img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
     footer {
       background: #0d0b16;
       color: #aaa;
@@ -104,6 +129,7 @@
   </style>
 </head>
 <body>
+
 
 <div class="container">
   <div class="product-card">
@@ -125,6 +151,19 @@
     <a href="https://lin.ee/d90AWSn" class="btn">
       <i class="fab fa-line"></i> LINE
     </a>
+  </div>
+
+  <!-- ✅ ส่วนวิดีโอ -->
+  <div class="video-section">
+    <iframe src="https://www.youtube.com/watch?v=7i9pqhjApDU" 
+      title="LAOSHUG77" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- ✅ ส่วนรูปภาพด้านล่าง -->
+  <div class="image-section">
+    <img src="https://img2.pic.in.th/pic/HUG-2.jpg" alt="LAOSHUG77">
   </div>
 </div>
 
