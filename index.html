@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 ໂປຣໂມຊັ່ນພິເສດ - ສິນຄ້າຂາຍດີ 🔥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ฟอนต์ลาว -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;700&display=swap" rel="stylesheet">
+  <!-- ไอคอน -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: "Noto Sans Lao", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      text-align: center;
+      padding: 30px 20px;
+      border-bottom: 3px solid #ff5722;
+    }
+    header img {
+      max-width: 180px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin: 10px 0 0 0;
+      color: #ff5722;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product-card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 30px 0;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    .product-card h2 {
+      font-size: 1.8rem;
+      color: #ff5722;
+      margin-top: 0;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #e64a19;
+      margin: 15px 0 25px 0;
+    }
+
+    /* ปุ่ม */
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #ff5722;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: 0.3s;
+      margin: 12px 0;
+      border: 2px solid #fff;
+      animation: pulse 1.8s infinite;
+    }
+    .btn i {
+      font-size: 1.2rem;
+    }
+    .btn:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
+
+    /* ปุ่มสีพิเศษ */
+    .btn-line { background: #00b900; }
+    .btn-facebook { background: #1877f2; }
+    .btn-shopee { background: #ff5722; }
+    .btn-cart { background: #ff9800; }
+
+    /* แอนิเมชัน */
+    @keyframes pulse {
+      0%   { transform: scale(1); }
+      50%  { transform: scale(1.06); }
+      100% { transform: scale(1); }
+    }
+
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- ✅ โลโก้ -->
+  <img src="https://via.placeholder.com/180x80.png?text=LOGO" alt="Logo">
+  <h1>🌟 ໂປຣໂມຊັ່ນພິເສດ 🌟</h1>
+  <p>ສິນຄ້າຄຸນນະພາບສູງ ລາຄາສຸດຄຸ້ມ ດ່ວນ! ມີຈຳກັດ</p>
+</header>
+
+<div class="container">
+  <div class="product-card">
+    <img src="https://via.placeholder.com/900x400.png?text=ຮູບສິນຄ້າ" alt="ສິນຄ້າ">
+    <h2>🎁 ສິນຄ້າພຣີເມຍມ</h2>
+    <p>
+      ຄຸນນະພາບດີ ຮັບປະກັນ 100% ສົ່ງຟຣີທົ່ວປະເທດ<br>
+      ສິນຄ້າຂາຍດີ ລູກຄ້າກວ່າ 10,000 ຄົນໄວ້ໃຈ
+    </p>
+    <div class="price">🔥 ພິເສດ ເພີງ 990 ກີບ (ຈາກປົກກະຕິ 1,990 ກີບ)</div>
+
+    <!-- ✅ ปุ่ม Call-to-Action (4 ปุ่ม) -->
+    <a href="https://your-checkout-link.com" class="btn btn-cart">
+      <i class="fas fa-shopping-cart"></i> ສັ່ງຊື້ທັນທີ
+    </a>
+
+    <a href="https://line.me/ti/p/~yourlineid" class="btn btn-line">
+      <i class="fab fa-line"></i> ສັ່ງຊື້ຜ່ານ LINE
+    </a>
+
+    <a href="https://facebook.com/yourpage" class="btn btn-facebook">
+      <i class="fab fa-facebook"></i> ສັ່ງຊື້ຜ່ານ Facebook
+    </a>
+
+    <a href="https://shopee.com/yourshop" class="btn btn-shopee">
+      <i class="fas fa-store"></i> ສັ່ງຊື້ຜ່ານ Shopee
+    </a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 My Sales Page | ຕິດຕໍ່: 020-XXX-XXXX | Line: @yourshop</p>
+</footer>
+
+</body>
+</html>
